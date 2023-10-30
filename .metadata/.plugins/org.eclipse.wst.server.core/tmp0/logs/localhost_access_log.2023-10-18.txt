@@ -1,0 +1,16 @@
+127.0.0.1 - - [18/Oct/2023:16:07:01 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [18/Oct/2023:16:07:02 +0900] "GET /LibraryProject/index.jsp HTTP/1.1" 500 2390
+0:0:0:0:0:0:0:1 - - [18/Oct/2023:16:07:02 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [18/Oct/2023:16:07:39 +0900] "GET /LibraryProject/index.jsp HTTP/1.1" 500 2618
+0:0:0:0:0:0:0:1 - - [18/Oct/2023:16:07:40 +0900] "GET /LibraryProject/index.jsp HTTP/1.1" 500 2246
+0:0:0:0:0:0:0:1 - - [18/Oct/2023:16:07:40 +0900] "GET /LibraryProject/index.jsp HTTP/1.1" 500 2246
+0:0:0:0:0:0:0:1 - - [18/Oct/2023:16:07:51 +0900] "GET /LibraryProject/index.jsp HTTP/1.1" 500 2618
+0:0:0:0:0:0:0:1 - - [18/Oct/2023:16:09:21 +0900] "GET /LibraryProject/index.jsp HTTP/1.1" 500 2618
+0:0:0:0:0:0:0:1 - - [18/Oct/2023:16:09:54 +0900] "GET /LibraryProject/index.jsp HTTP/1.1" 500 2618
+0:0:0:0:0:0:0:1 - - [18/Oct/2023:16:10:24 +0900] "GET /LibraryProject/index.jsp HTTP/1.1" 200 4056
+0:0:0:0:0:0:0:1 - - [18/Oct/2023:16:10:28 +0900] "GET /LibraryProject/index.jsp HTTP/1.1" 200 4056
+0:0:0:0:0:0:0:1 - - [18/Oct/2023:16:10:29 +0900] "GET /LibraryProject/login/login.jsp HTTP/1.1" 404 811
+0:0:0:0:0:0:0:1 - - [18/Oct/2023:16:10:33 +0900] "GET /LibraryProject/book/searchBook.jsp HTTP/1.1" 404 815
+0:0:0:0:0:0:0:1 - - [18/Oct/2023:16:10:35 +0900] "GET /LibraryProject/index.jsp HTTP/1.1" 200 4056
+0:0:0:0:0:0:0:1 - - [18/Oct/2023:16:25:04 +0900] "GET /LibraryProject/index.jsp HTTP/1.1" 200 4056
+0:0:0:0:0:0:0:1 - - [18/Oct/2023:16:25:05 +0900] "GET /LibraryProject/login/login.jsp HTTP/1.1" 200 5317

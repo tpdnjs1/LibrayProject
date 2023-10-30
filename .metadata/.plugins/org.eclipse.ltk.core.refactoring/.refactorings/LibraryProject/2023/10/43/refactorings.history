@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;biz.signUpServlet&apos; to &apos;SignUpServlet&apos;&#x0D;&#x0A;- Original project: &apos;LibraryProject&apos;&#x0D;&#x0A;- Original element: &apos;biz.signUpServlet&apos;&#x0D;&#x0A;- Renamed element: &apos;biz.SignUpServlet&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;signUpServlet&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;biz{signUpServlet.java[signUpServlet" matchStrategy="1" name="SignUpServlet" qualified="false" references="true" similarDeclarations="false" stamp="1698217545401" textual="false" version="1.0"/>
+</session>
