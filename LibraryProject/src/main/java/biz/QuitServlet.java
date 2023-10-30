@@ -36,6 +36,7 @@ public class QuitServlet extends HttpServlet {
 		} else {
 			MemberDao dao = new MemberDao();
 			result = dao.removeMember(user.getId());
+			session.removeAttribute("loginOK");
 			String msg;
 			if(result > 0) {
 				msg = user.getName() + "님의 회원 정보가 삭제되었습니다. 안녕히가세요.";

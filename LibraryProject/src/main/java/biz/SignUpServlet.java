@@ -52,7 +52,7 @@ public class SignUpServlet extends HttpServlet {
 				session.setAttribute("loginOK", vo);
 				out.println("<script>alert('회원가입 되었습니다.');</script>");
 				
-				response.sendRedirect("/LibraryProject/index.jsp");
+				response.sendRedirect("/LibraryProject/login/loginOk.jsp");
 			} else {
 				out.println("<script>alert('회원가입에 실패하였습니다. 다시 시도해주세요.'); history.back(); </script>");
 			}

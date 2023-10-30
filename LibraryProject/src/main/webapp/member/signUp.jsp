@@ -16,23 +16,23 @@
         <table width="500px" border="1" align="center">
             <tr>
                 <td>회원 ID</td>
-                <td><input type="text" name="id"></td>
+                <td><input type="text" name="id" maxlength="20"></td>
             </tr>
             <tr>
                 <td>회원 PW</td>
-                <td><input type="password" name="pw"></td>
+                <td><input type="password" name="pw" maxlength="20"></td>
             </tr>
             <tr>
                 <td>이름</td>
-                <td><input type="text" name="name"></td>
+                <td><input type="text" name="name" maxlength="20"></td>
             </tr>
             <tr>
                 <td>주소</td>
-                <td><input type="text" name="address"></td>
+                <td><input type="text" name="address" maxlength="50"></td>
             </tr>
             <tr>
                 <td>나이</td>
-                <td><input type="number" name="age"></td>
+                <td><input type="number" name="age"  maxlength="3"></td>
             </tr>
             <tr>
                 <td colspan="2">
