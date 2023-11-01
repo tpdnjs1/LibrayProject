@@ -29,7 +29,7 @@
 %>
         <tr>
             <th><%= data.getNum() %></th>
-           <th><%= data.getTitle() %></th>
+           <th><%= data.getTitle() %></th>~`
             <th><%= data.getAuthor() %></th>
             <th><%= data.getCompany() %></th>
             <th><%= data.getPrice() %></th>
