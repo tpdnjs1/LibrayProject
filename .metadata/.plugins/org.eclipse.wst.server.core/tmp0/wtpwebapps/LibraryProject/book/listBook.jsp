@@ -28,15 +28,33 @@
 			for(BookVO data : list){
 %>
         <tr>
-            <th><%= data.getNum() %></th>
-           <th><%= data.getTitle() %></th>
-            <th><%= data.getAuthor() %></th>
-            <th><%= data.getCompany() %></th>
-            <th><%= data.getPrice() %></th>
-            <th><a href="/BookProject/updateBook?isbn=<%= data.getNum()%>">수정</a></th>
-        </tr>
+            <td><%= data.getNum() %></td>
+           <td><%= data.getTitle() %></td>
+            <td><%= data.getAuthor() %></td>
+            <td><%= data.getCompany() %></td>
+            <td><%= data.getPrice() %></td>
+<%
+				if(login == null){
+					out.println("<td></td>");
+				}else{
+					if(data.getRent() == 't'){
+						out.println("<td>대여중</td>");
+					}else{
+						%>
+						<td><a href="/LibraryProject/rentBook?book_num=<%= data.getNum() %>>">대여하기</a></td>
+						<%
+					}
+				}
+%>
+		</tr>
 <%
 			}
+		} else {
+%>
+			<tr>
+				<td colspan="6">정보를 찾을 수 없습니다.</td>
+			</tr>
+<%
 		}
 %>
     </table>

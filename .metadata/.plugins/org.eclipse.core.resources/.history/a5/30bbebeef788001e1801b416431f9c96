@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2> 도서 검색</h2>
+
+    <a href="/LibraryProject/listBook?title=all">도서 전체 보기</a>
+    <br><br>
+    <form action="/listBook" method="get">
+        도서명 : <input type="text" name="title">
+        <input type="submit" value="검색">
+        <input type="reset" value="취소">
+    </form>
+</body>
+</html>
