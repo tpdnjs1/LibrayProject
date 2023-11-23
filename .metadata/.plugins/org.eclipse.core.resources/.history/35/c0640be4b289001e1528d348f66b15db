@@ -46,31 +46,10 @@ public class BookDao{
 			}
 			
 		} catch (Exception e) {
-			e.printStackTrace();
-			System.out.println("book 테이블 조회 실패");
-		}finally {
-			JdbcUtil.close(conn, pstmt, rs);
+			
 		}
 		
 		return list;
-	}
-	
-	public int setRentField(int num, char rent) {
-		int result = 0;
-		
-		Connection conn = null;
-		PreparedStatement pstmt = null;
-		String sql = "UPDATE book SET rent=? WHERE num=?";
-		
-		try {
-			//여기부터
-		}catch(Exception e){
-			e.printStackTrace();
-		} finally {
-			JdbcUtil.close(conn, pstmt);
-		}
-		
-		return result;
 	}
 
 }

@@ -56,21 +56,11 @@ public class BookDao{
 	}
 	
 	public int setRentField(int num, char rent) {
-		int result = 0;
-		
 		Connection conn = null;
 		PreparedStatement pstmt = null;
-		String sql = "UPDATE book SET rent=? WHERE num=?";
+		String sql = "";
 		
-		try {
-			//여기부터
-		}catch(Exception e){
-			e.printStackTrace();
-		} finally {
-			JdbcUtil.close(conn, pstmt);
-		}
-		
-		return result;
+		return 0;
 	}
 
 }
