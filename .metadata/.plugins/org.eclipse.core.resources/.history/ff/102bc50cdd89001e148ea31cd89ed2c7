@@ -63,14 +63,9 @@ public class BookDao{
 		String sql = "UPDATE book SET rent=? WHERE num=?";
 		
 		try {
-			conn = JdbcUtil.getConnection();
-			pstmt = conn.prepareStatement(sql);
-			pstmt.setString(1, String.valueOf(rent));
-			pstmt.setInt(2, num);
-			result = pstmt.executeUpdate();
+			//여기부터
 		}catch(Exception e){
 			e.printStackTrace();
-			System.out.println("string인게 문제인듯");
 		} finally {
 			JdbcUtil.close(conn, pstmt);
 		}

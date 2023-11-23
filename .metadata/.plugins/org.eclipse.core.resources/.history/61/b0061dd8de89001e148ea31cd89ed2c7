@@ -67,7 +67,6 @@ public class BookDao{
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, String.valueOf(rent));
 			pstmt.setInt(2, num);
-			result = pstmt.executeUpdate();
 		}catch(Exception e){
 			e.printStackTrace();
 			System.out.println("string인게 문제인듯");
